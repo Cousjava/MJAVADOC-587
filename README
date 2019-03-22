@@ -1,0 +1,4 @@
+Reproducer for issue MJAVADOC-587
+
+Running the command mvn javadoc:aggregate or mvn javadoc:javadoc and the build will fail,
+from a plugin that should not be part of the Javadoc creation.
